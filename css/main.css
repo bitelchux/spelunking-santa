@@ -1,0 +1,36 @@
+* {
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+a{
+	color: #fff;
+}
+
+html, body { 
+  background-color: #111;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  /*text-align: center;*/
+}
+
+#phaser-example{
+	position:absolute;
+	left:50%;
+	margin:20px 0 0 -320px;
+}
+
+#instructions{
+	position: absolute;
+	top:500px;
+	left:50%;
+	margin:0 0 0 -200px;
+	color: #999;
+	font-family: "Lucida Console";
+	font-size:12px;
+	width:500px;
+
+}
+
